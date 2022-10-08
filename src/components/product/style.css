@@ -1,0 +1,127 @@
+a{
+    text-decoration: none;
+    --bs-text-opacity: 1;
+    color: rgba(0,0,0,.5)!important;
+}
+
+a:hover{
+    color: rgba(0,0,0)!important;
+}
+
+.discount_code:hover{
+    color: white!important;
+}
+
+.price-current {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #DC2626!important;
+}
+
+.text-gray-500{
+    color: #6B7280;
+}
+
+.price-before-discount{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    color: #4B5563;
+    text-decoration: line-through;
+}
+
+.similar-search{
+    margin-right: 20px;
+    --bs-btn-color: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0d6efd;
+    --bs-btn-hover-border-color: #0d6efd;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0d6efd;
+    --bs-btn-active-border-color: #0d6efd;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+    --bs-btn-padding-y: 0.25rem;
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-border-radius: 0.25rem;
+}
+
+.thumbnail-slider-wrap {
+    margin-top: 15px;
+    height: auto;
+}
+
+.thumbnail-slider-wrap .slick-track .slick-slide {
+    text-align: center;
+}
+
+.thumbnail-slider-wrap .slick-track .slick-slide img {
+    width: 60%;
+}
+
+.slick-slide-image{
+    width: 100%;
+    height: auto;
+}
+
+.slick-next {
+    right: 15px;
+}
+
+.slick-prev {
+    left: 15px;
+    z-index: 2;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-tabs .nav-link.active{
+    color: #DC2626;
+}
+
+.product-similar{
+
+}
+
+.product-similar img{
+    /* height: 100px;
+    width: auto; */
+}
+
+.product-similar-name{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 991px){
+    .product-similar-name{
+        font-size: 1rem;
+    }
+    .price-current{
+        font-size: 1rem;
+    }
+
+    .product-similar small{
+        font-size: .7rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .comment img{
+        height: 3rem!important;
+        width: auto;
+    }
+
+    .comment .comment-content{
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,87 @@
+.brand-slider a, .product-card{
+    text-decoration: none;
+    --bs-text-opacity: 1;
+    color: rgba(0,0,0,.5)!important;
+}
+
+.brand-slider a:hover{
+    color: rgb(0, 0, 0)!important;
+}
+
+.product-card, .brand-slider{
+    padding-left: .7rem;
+    padding-right: .7rem;
+    position: relative;
+}
+
+.product-card .shadow{
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-card, .brand-slider{
+        padding-left: .2rem;
+        padding-right: .2rem;
+        position: relative;
+    }
+
+    .product-brand{
+        position: absolute;
+        top: 16px;
+        left: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .product-title{
+        font-size: .8rem;
+    }
+}
+
+.product-link{
+    color: white!important;
+    margin: 0 auto;
+    display: none;
+}
+
+.product-card:hover .product-link{
+    display: block;
+}
+
+@media only screen and (max-width: 1024px){
+   
+    .product-link {
+        margin: 0 auto;
+        display: block;
+    }   
+}
+
+@media only screen and (min-width: 1025px){
+    
+}
+
+.product-icon{
+    font-size: .7rem;
+}
+
+.product-brand{
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.product-card:hover {
+	transform: translate(0, -8px);
+}
+  
+.brand-card > img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.brand-card:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 237, 237);
+}

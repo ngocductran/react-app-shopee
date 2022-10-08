@@ -1,0 +1,27 @@
+.footer a{
+    text-decoration: none;
+    --bs-text-opacity: 1;
+    color: rgba(0,0,0,.5)!important;
+}
+
+.footer a:hover{
+    color: rgb(0, 0, 0)!important;
+}
+
+.footer{
+    line-height:  1.4rem !important;
+    border-top: 5px solid #0dcaf0;
+}
+
+.footer-logo {
+    height: 2.5rem!important;
+}
+
+.footer-contact a{
+    margin-top: 12px;
+    font-size: 24px;
+}
+
+.footer-contact-2 li , .pd-16 div, .pd-16 b{
+    margin-top: 16px; 
+}
