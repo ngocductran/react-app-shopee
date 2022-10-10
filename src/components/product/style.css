@@ -14,7 +14,7 @@ a:hover{
 
 .price-current {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     line-height: 2rem;
     color: #DC2626!important;
 }
@@ -29,6 +29,7 @@ a:hover{
     --tw-text-opacity: 1;
     color: #4B5563;
     text-decoration: line-through;
+    margin: 20px 0;
 }
 
 .similar-search{
@@ -106,7 +107,7 @@ a:hover{
         font-size: 1rem;
     }
     .price-current{
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 
     .product-similar small{

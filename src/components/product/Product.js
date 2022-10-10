@@ -83,7 +83,7 @@ const Product = () => {
     <div className="container">
         <nav aria-label="breadcrumb">
             <ol className="breadcrumb my-5">
-                <li className="breadcrumb-item"><a href="/">Home</a></li>
+                <li className="breadcrumb-item"><a href="/"><i class="fa-solid fa-house"></i></a></li>
                 <li className="breadcrumb-item"><a href="#">Library</a></li>
                 <li className="breadcrumb-item active" aria-current="page">Data</li>
             </ol>
@@ -135,8 +135,8 @@ const Product = () => {
                         <a href=""><div className="btn btn-info text-white"><i className="fa-solid fa-right-long"></i> Đến shop</div></a>
                     </div>
                     <div className="price-before-discount">100.000 đ</div>
-                    <div className="my-2">
-                        <span className="h6 text-warning">
+                    <div className="my-2 h5">
+                        <span className="text-warning">
                             <b>5.0 </b>
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>

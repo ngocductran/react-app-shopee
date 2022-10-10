@@ -17,6 +17,8 @@ import Product from './pages/Product';
 
 import Search from './pages/Search';
 
+import Category from './pages/Category';
+
 function App() {
   return (
     <Router>
@@ -35,6 +37,9 @@ function App() {
         </Routes>
         <Routes>
           <Route exact path="/product" element={<Product/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/category" element={<Category/>}/>
         </Routes>
       </div>
     </Router>

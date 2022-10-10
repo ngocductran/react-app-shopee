@@ -39,7 +39,7 @@ const ProductSimilar = () => {
                         </div>
                         <div className="col-md-8 col-sm-8 col-7 d-flex flex-column justify-content-around">
                             <div className="h5 product-similar-name"><a href="/">Điện thoại Samsung Galaxy Z Fold4 512GB</a></div>
-                            <div className="price-current">50.000 đ</div>
+                            <div className="h5 text-danger">50.000 đ</div>
                             <small>Nơi bán: Hà Nội</small>
                         </div>
                         <div className="col-md-2 col-sm-2 col-2 d-flex flex-column justify-content-around">
@@ -52,7 +52,7 @@ const ProductSimilar = () => {
                         </div>
                         <div className="col-md-8 col-sm-8 col-7 d-flex flex-column justify-content-around">
                             <div className="h5 product-similar-name"><a href="/">Điện thoại Samsung Galaxy Z Fold4 512GB</a></div>
-                            <div className="price-current">50.000 đ</div>
+                            <div className="h5 text-danger">50.000 đ</div>
                             <small>Nơi bán: Hà Nội</small>
                         </div>
                         <div className="col-md-2 col-sm-2 col-2 d-flex flex-column justify-content-around">
@@ -65,7 +65,7 @@ const ProductSimilar = () => {
                         </div>
                         <div className="col-md-8 col-sm-8 col-7 d-flex flex-column justify-content-around">
                             <div className="h5 product-similar-name"><a href="/">Điện thoại Samsung Galaxy Z Fold4 512GB</a></div>
-                            <div className="price-current">50.000 đ</div>
+                            <div className="h5 text-danger">50.000 đ</div>
                             <small>Nơi bán: Hà Nội</small>
                         </div>
                         <div className="col-md-2 col-sm-2 col-2 d-flex flex-column justify-content-around">
@@ -78,7 +78,7 @@ const ProductSimilar = () => {
                         </div>
                         <div className="col-md-8 col-sm-8 col-7 d-flex flex-column justify-content-around">
                             <div className="h5 product-similar-name"><a href="/">Điện thoại Samsung Galaxy Z Fold4 512GB</a></div>
-                            <div className="price-current">50.000 đ</div>
+                            <div className="h5 text-danger">50.000 đ</div>
                             <small>Nơi bán: Hà Nội</small>
                         </div>
                         <div className="col-md-2 col-sm-2 col-2 d-flex flex-column justify-content-around">
@@ -91,7 +91,7 @@ const ProductSimilar = () => {
                         </div>
                         <div className="col-md-8 col-sm-8 col-7 d-flex flex-column justify-content-around">
                             <div className="h5 product-similar-name"><a href="/">Điện thoại Samsung Galaxy Z Fold4 512GB</a></div>
-                            <div className="price-current">50.000 đ</div>
+                            <div className="h5 text-danger">50.000 đ</div>
                             <small>Nơi bán: Hà Nội</small>
                         </div>
                         <div className="col-md-2 col-sm-2 col-2 d-flex flex-column justify-content-around">
@@ -104,7 +104,7 @@ const ProductSimilar = () => {
                         </div>
                         <div className="col-md-8 col-sm-8 col-7 d-flex flex-column justify-content-around">
                             <div className="h5 product-similar-name"><a href="/">Điện thoại Samsung Galaxy Z Fold4 512GB</a></div>
-                            <div className="price-current">50.000 đ</div>
+                            <div className="h5 text-danger">50.000 đ</div>
                             <small>Nơi bán: Hà Nội</small>
                         </div>
                         <div className="col-md-2 col-sm-2 col-2 d-flex flex-column justify-content-around">
